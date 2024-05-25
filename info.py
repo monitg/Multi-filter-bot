@@ -69,7 +69,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+KAjYvbNDdKhlYmE1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Team_MDL')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Demoshorts/41')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Demoshorts/41')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/+KAjYvbNDdKhlYmE1') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+KAjYvbNDdKhlYmE1') # Support Chat Link Without https:// or @
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', False)) # In Pm Search Currently Spell Check Doesn't Work.
@@ -98,7 +98,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '269bd24b7ea6d49e1307b13e759e050923
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', '❤️ Join Team_MDL ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
