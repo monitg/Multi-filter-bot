@@ -1891,25 +1891,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('❣️ Jᴏɪɴ Cʜᴀɴɴᴇʟ ❣️', url=CHNL_LNK"),
+                InlineKeyboardButton('❣️ Jᴏɪɴ Cʜᴀɴɴᴇʟ ❣️', url=CHNL_LNK),
                 InlineKeyboardButton('🌿  ꜱᴜᴘᴘᴏʀᴛ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💠  ʜᴇʟᴘ  💠', callback_data='help'),
                 InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
             ],[
-                InlineKeyboardButton(''🥀 Jᴏɪɴ ᴏᴠᴇʀ Cʜᴀɴɴᴇʟ ❤️', callback_data="shortlink_info")
+                InlineKeyboardButton('🥀 Jᴏɪɴ ᴏᴠᴇʀ Cʜᴀɴɴᴇʟ ❤️', callback_data="shortlink_info")
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('❣️ Jᴏɪɴ Cʜᴀɴɴᴇʟ ❣️', url=CHNL_LNK"),
+                InlineKeyboardButton('❣️ Jᴏɪɴ Cʜᴀɴɴᴇʟ ❣️', url=CHNL_LNK),
                 InlineKeyboardButton('🌿  ꜱᴜᴘᴘᴏʀᴛ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💠  ʜᴇʟᴘ  💠', callback_data='help'),
-                InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('♻️  ᴀʙᴏᴜᴛ  ♻️', callback_data='about')
             ],[
-                InlineKeyboardButton(''🥀 Jᴏɪɴ ᴏᴠᴇʀ Cʜᴀɴɴᴇʟ ❤️', callback_data="shortlink_info")
+                InlineKeyboardButton('🥀 Jᴏɪɴ ᴏᴠᴇʀ Cʜᴀɴɴᴇʟ ❤️', callback_data="shortlink_info")
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
